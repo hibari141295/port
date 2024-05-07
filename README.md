@@ -1,4 +1,4 @@
 This is my inspiration 
-I need coding more to Pro
+I need coding more to be a pro
 
-this my personal site
++_this my personal site_+
