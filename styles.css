@@ -1,15 +1,43 @@
-body {
-    background-color: aquamarine;
+:root{
+  background-color: #000000;
+  font-weight: 400;
+  color: #f0f8ff;
 }
-h1 {
+
+@font-face {
+  font-family: ubuntumono;
+  src: url(UbuntuMono-Regular.ttf);
+}
+
+.items-center{
   text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
-h2 {
-  text-align: left;
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-color: #000000;
+  margin: 0rem;
+  overflow: hidden;
 }
 
-h3 {
-  text-align: right;
+h1 {
+  font-family: ubuntumono;
+  text-align: center;
+  font-size: clamp(3rem, 10vw, 10rem);
+  color: white;
+  padding: 0rem clamp(1rem, 2vw, 3rem);
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
 }
 
+h1:hover {
+  background-color: #f0f8ff;
+  color: black;
+}
+a {
+  text-align: center;
+  display: inline-block;
+}
