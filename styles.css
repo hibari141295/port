@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: ubuntumono;
-  src: url(UbuntuMono-Regular.ttf);
+  src: url(/fonts/ubuntu-mono/UbuntuMono-Regular.ttf);
 }
 
 .items-center{
@@ -27,7 +27,7 @@ body {
 h1 {
   font-family: ubuntumono;
   text-align: center;
-  font-size: clamp(3rem, 10vw, 10rem);
+  font-size: clamp(3rem, 4vw, 4rem);
   color: white;
   padding: 0rem clamp(1rem, 2vw, 3rem);
   border-radius: clamp(0.4rem, 0.75vw, 1rem);
@@ -40,4 +40,16 @@ h1:hover {
 a {
   text-align: center;
   display: inline-block;
+}
+img {
+  width: 200px;
+  height: auto;
+  border-radius: clamp(0.4rem, 0.75vw, 1rem);
+  background-color: #f0f8ff;
+  border-radius: clamp(10rem, 0.75vw, 0rem);
+}
+img:hover {
+  background-color: #9000ff;
+  color: #000000;
+  border-radius: clamp(10rem, 0.75vw, 0rem);
 }
