@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: ubuntumono;
-  src: url(/fonts/ubuntu-mono/UbuntuMono-Regular.ttf);
+  src: url(UbuntuMono-Regular.ttf);
 }
 
 .items-center{
